@@ -57,6 +57,7 @@
 </template>
 
 <style>
+
 .navbar {
     top: 0px;
 }

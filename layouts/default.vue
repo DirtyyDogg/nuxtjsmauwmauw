@@ -33,13 +33,35 @@ export default {
     }
     .wrapper {
         margin: auto;
-        padding: 25px 0px 145px 0;
-        max-height: 98.3vh;
+        padding: 40px 0 187px 0;
+        max-height: 100vh;
+        min-height: 100vh;
         background: black;
-        overflow: scroll;
+        overflow: scroll !important;
     }
     .navbar-collapse.show {
         max-height: 100vh;
         min-height: 100vh;
     }
+
+    @media screen and (max-width: 600px) {
+    /* mobile */
+    div#intro {
+        background: #1f1e1ed1;
+    }
+    div#intro.container {
+        text-align: center;
+        margin: -29px 0 0 0;
+        background: yellowgreen;
+    }
+    .wrapper {
+        margin: auto;
+        padding: 33px 0 140 0;
+        /* max-height: 98.3vh; */
+        max-height: 100vh;
+        min-height: 100vh;
+        background: black;
+        overflow: scroll;
+    }
+}
 </style>

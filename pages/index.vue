@@ -1,5 +1,5 @@
 <template>
-  <b-container style="text-align: center;">
+  <b-container id="intro" style="text-align: center;">
     <div>
       <logo />
       <h1 class="title">
