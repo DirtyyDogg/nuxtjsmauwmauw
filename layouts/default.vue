@@ -33,13 +33,13 @@ export default {
     }
     .wrapper {
         margin: auto;
-        padding: 25px 0px 60px 0;
-        max-height: 85vh;
+        padding: 25px 0px 145px 0;
+        max-height: 98.3vh;
         background: black;
         overflow: scroll;
     }
     .navbar-collapse.show {
-        max-height: 367px;
-        min-height: 535px;
+        max-height: 100vh;
+        min-height: 100vh;
     }
 </style>
