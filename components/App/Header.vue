@@ -61,4 +61,7 @@
 .navbar {
     top: 0px;
 }
+nav#secrimento {
+    background: linear-gradient(179deg, #353535, #040303);
+}
 </style>

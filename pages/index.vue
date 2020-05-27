@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container style="text-align: center;">
     <div>
       <logo />
       <h1 class="title">
@@ -25,7 +25,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script>
