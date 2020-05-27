@@ -22,8 +22,13 @@ export default {
     html {
         overflow: hidden;
     }
-    body {
+    /* body {
         background-color: #1d1d1d;
+    } */
+    html, body {
+        height: 100%;
+        width: 100%;
+        background: #fff0;
     }
     .app {
         overflow:hidden
@@ -57,7 +62,7 @@ export default {
     } */
     .wrapper {
         margin: auto;
-        padding: 0 0 0 0;
+        padding: 0 0 115px 0;
         /* max-height: 98.3vh; */
         max-height: 100vh;
         min-height: 100vh;
