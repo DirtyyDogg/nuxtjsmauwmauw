@@ -23,8 +23,8 @@
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
-            <b-form-input size="sm" class="mr-sm-2" placeholder="Search" />
-            <b-button size="sm" class="my-2 my-sm-0" style="background: #00ffff8c;" type="submit">
+            <b-form-input size="sm" class="mr-sm-2" style="background-color:#222323b5; color: black; border: 1px solid #3b8070;" placeholder="Search" />
+            <b-button size="sm" class="my-2 my-sm-0" style="background: #3b8070;" type="submit">
               Zoeken
             </b-button>
           </b-nav-form>
@@ -62,5 +62,25 @@
 }
 nav#secrimento {
     background: linear-gradient(179deg, #353535, #040303);
+}
+/* form.control {
+    color: #c5c5c5;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    #3b8070;
+
+} */
+
+input, select, textarea, form-control, ::placeholder {
+    color: #3b8070 !important;
+}
+/* input::placeholder {
+    color: aqua;
+} */
+form.control:focus {
+    color: #c5c5c5;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
 }
 </style>
