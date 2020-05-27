@@ -1,18 +1,18 @@
 <template>
   <section class="app-header">
     <b-navbar id="secrimento" toggleable="lg" type="dark" variant="dark" fixed>
-    <b-navbar-brand id="secrimento-brand" href="#">
-      NavBar
-    </b-navbar-brand>
+      <b-navbar-brand id="secrimento-brand" href="#">
+        NavBar
+      </b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse">
+      <b-navbar-toggle target="nav-collapse">
         <template v-slot:default="{ expanded }">
           <b-icon v-if="expanded" icon="chevron-bar-up" />
           <b-icon v-else icon="chevron-bar-down" />
         </template>
-    </b-navbar-toggle>
+      </b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item href="#">
             Link
@@ -52,7 +52,6 @@
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
-
     </b-navbar>
   </section>
 </template>
