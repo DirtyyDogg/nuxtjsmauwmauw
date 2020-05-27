@@ -1,8 +1,8 @@
 <template>
   <div class="app">
-     <appHeader />
+    <appHeader />
     <div class="wrapper">
-     <nuxt />
+      <nuxt />
     </div>
     <appFooter />
   </div>
@@ -12,9 +12,9 @@
 import appHeader from '~/components/App/Header'
 import appFooter from '~/components/App/Footer'
 export default {
-    components: {
-        appHeader, appFooter
-    }
+  components: {
+    appHeader, appFooter
+  }
 }
 </script>
 

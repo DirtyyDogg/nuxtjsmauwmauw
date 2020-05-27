@@ -17,7 +17,7 @@
     position: fixed;
     bottom: 2px;
     /* text-align: center !important;
-} 
-margin: 0 50% 0 47%; 
+}
+margin: 0 50% 0 47%;
 */
 </style>
