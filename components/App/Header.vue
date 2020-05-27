@@ -71,6 +71,19 @@ nav#secrimento {
 
 } */
 
+.dropdown-menu {
+    color: #83a90f;
+    background: #1a1b1a;
+}
+.dropdown-item {
+    color: #a6a8ab;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #e6e6e6;
+    text-decoration: none;
+    background-color: #3b807070
+}
+/** INPUT */
 input, select, textarea, form-control, ::placeholder {
     color: #3b8070 !important;
 }
