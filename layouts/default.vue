@@ -34,4 +34,8 @@ export default {
         overflow-y: scroll;
         background: black;
     }
+    .navbar-collapse {
+        max-height: 367px;
+        min-height: 535px;
+    }
 </style>
