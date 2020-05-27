@@ -25,14 +25,18 @@ export default {
     body {
         background-color: #1d1d1d;
     }
+    .app {
+        overflow:hidden
+    }
+    ::-webkit-scrollbar {
+        width: 0px !important;
+    }
     .wrapper {
         margin: auto;
         padding: 25px 0px 60px 0;
         max-height: 85vh;
-        overflow: auto scroll;
-        overflow-x: hidden;
-        overflow-y: scroll;
         background: black;
+        overflow: scroll;
     }
     .navbar-collapse.show {
         max-height: 367px;
