@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss">
 .img-fluid {
-    height: 70vh !important;
+    height: 79vh !important;
 }
 .slurp {
     margin: 49px;
