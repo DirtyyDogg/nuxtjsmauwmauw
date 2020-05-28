@@ -83,7 +83,7 @@ typings/
 
 # IDE / Editor
 .idea
-.editorconfig
+#.editorconfig
 
 # Service worker
 sw.*
