@@ -22,9 +22,6 @@ export default {
     html {
         overflow: hidden;
     }
-    /* body {
-        background-color: #1d1d1d;
-    } */
     html, body {
         height: 100%;
         width: 100%;
@@ -36,15 +33,6 @@ export default {
     ::-webkit-scrollbar {
         width: 0px !important;
     }
-    /* .wrapper {
-        min-height: 100vh;
-        margin: auto;
-        margin-bottom: -50px;
-        /* padding: 2px 0 187px 0; */ /*
-        padding: 0 0 115px 0;
-        background: black;
-        overflow: scroll !important;
-    } */
     .wrapper {
         margin: auto;
         margin-bottom: -50px;
