@@ -1,37 +1,36 @@
 <template>
   <b-container class="containerService">
-    <b-row align-v="stretch" align-h="between" cols="4" cols-sm="4" cols-md="4">
+    <b-row align-v="stretch" align-h="between" cols="1" cols-md="2" cols-lg="4">
       <b-col>
-        <div class="containerSlide">
-          <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="image">
-          <div class="overlayy">
-            <a href="#" class="icon" title="User Profile">
-              <i class="fas fa-user" />
-            </a>
-          </div>
-        </div>
+        <Slide1 />
       </b-col>
+      <!--  -->
       <b-col>
-        <p>Column sm 4</p>
-        <p>Column sm 4</p>
-        <p>Column sm 4</p>
-        <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="image"> -->
+        <Slide2 />
       </b-col>
+      <!--  -->
       <b-col>
-        <p>Column sm 4</p>
-        <p>Column sm 4</p>
-        <p>Column sm 4</p>
-        <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="image"> -->
+        <Slide3 />
       </b-col>
-      <b-col id="bcolLast">
-        <p>Column sm 4</p>
-        <p>Column sm 4</p>
-        <p>Column sm 4</p>
-        <!--  -->
+      <!--  -->
+      <b-col>
+        <Slide4 />
       </b-col>
     </b-row>
   </b-container>
 </template>
+
+<script>
+import Slide1 from '~/components/Slide-Cards/slide1'
+import Slide2 from '~/components/Slide-Cards/slide2'
+import Slide3 from '~/components/Slide-Cards/slide3'
+import Slide4 from '~/components/Slide-Cards/slide4'
+export default {
+  components: {
+    Slide1, Slide2, Slide3, Slide4
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @media screen and (min-width: 992px) {
@@ -39,49 +38,46 @@
     margin: 0 -83px 0 0;
     }
 }
-.containerSlide {
+
+// UP Styles
+.containerUP {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  min-height: 7cm;
 }
 
-.image {
+.imageUP {
   display: block;
   width: 100%;
   height: auto;
 }
-.overlayy {
+
+.overlayUP {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  background-color: #008CBA;
+  overflow: hidden;
   width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: red;
+  height: 0;
+//   height: 63px;
+  transition: .5s ease;
 }
-.containerSlide:hover .overlayy {
-  opacity: 1;
+
+.containerUP:hover .overlayUP {
+  height: 100%;
 }
-.icon {
+
+.textUP {
   color: white;
-  font-size: 100px;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
-
 </style>
-
-<script>
-export default {
-  components: {
-    //
-  }
-}
-</script>
