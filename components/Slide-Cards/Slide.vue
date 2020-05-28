@@ -119,9 +119,4 @@ export default {
 
 }
 
-// Larger
-@media screen and (min-width: 1200px) {
-
-}
-
 </style>

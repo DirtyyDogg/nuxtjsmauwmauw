@@ -20,4 +20,15 @@ export default {
 .img-fluid {
     height: 81vh !important;
 }
+// Larger
+@media screen and (min-width: 800px) {
+    .img-fluid {
+        height: 70vh !important;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .img-fluid {
+        height: 70vh !important;
+    }
+}
 </style>
