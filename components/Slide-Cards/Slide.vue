@@ -38,7 +38,7 @@ export default {
 
 <style lang="scss">
 .fill {
-    padding: 7px;
+    padding: 8vh;
 }
 .containerCards.container {
     margin-top: 52px;
