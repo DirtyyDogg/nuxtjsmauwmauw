@@ -35,10 +35,10 @@ export default {
 }
 @media screen and (min-width: 1000px) {
     .img-fluid {
-        height: 55vh !important;
+        height: 67vh !important;
     }
     .Slider.container-xl {
-        margin-top: 55px;
+        margin-top: 13px;
     }
     .slurp {
         display: none;
