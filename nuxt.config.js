@@ -8,8 +8,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
     //   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=.5, maximum-scale=12.0, minimun-scale=.25, user-scalable=yes' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+    //   { name: 'viewport', content: 'width=device-width, initial-scale=.5, maximum-scale=12.0, minimun-scale=.25, user-scalable=yes' },
+        { name: 'viewport', content: 'width=device-width, user-scalable=no' },
+        { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
