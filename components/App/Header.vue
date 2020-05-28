@@ -43,28 +43,30 @@
               Zoeken
             </b-button>
           </b-nav-form>
-          <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">
-              1
-            </b-dropdown-item>
-            <b-dropdown-item href="#">
-              2
-            </b-dropdown-item>
-            <b-dropdown-item href="#">
-              3
-            </b-dropdown-item>
-          </b-nav-item-dropdown>
-          <b-nav-item-dropdown right>
-            <template v-slot:button-content>
-              <em>User</em>
-            </template>
-            <b-dropdown-item href="#">
-              Profile
-            </b-dropdown-item>
-            <b-dropdown-item href="#">
-              Loguit
-            </b-dropdown-item>
-          </b-nav-item-dropdown>
+          <!-- old -->
+          <div>
+            <b-nav-item-dropdown v-if="user" text="User" right>
+              <b-dropdown-item href="#">
+                Mijn Profiel
+              </b-dropdown-item>
+              <b-dropdown-item href="#">
+                Admin Panel
+              </b-dropdown-item>
+              <b-dropdown-item href="#">
+                Uitloggen
+              </b-dropdown-item>
+            </b-nav-item-dropdown>
+            <div v-else>
+              <b-nav-item-dropdown v-if="!user" text="Niet ingelogd" right>
+                <b-dropdown-item href="#">
+                  Login
+                </b-dropdown-item>
+                <b-dropdown-item href="#">
+                  Register
+                </b-dropdown-item>
+              </b-nav-item-dropdown>
+            </div>
+          </div>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -76,7 +78,8 @@
 export default {
   data () {
     return {
-      SiteTitle: 'MauwMauw'
+      SiteTitle: 'MauwMauw',
+      user: false
     }
   }
 }
