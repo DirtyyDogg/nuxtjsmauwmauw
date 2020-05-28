@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtjs
+        {{ SiteTitle }}
       </h1>
       <h2 class="subtitle">
         My astonishing Nuxt.js project
@@ -34,10 +34,22 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  data () {
+    return {
+      SiteTitle: 'MauwMauw'
+    }
   }
 }
 </script>
 
 <style>
-
+@media only screen and (max-width: 576px) {
+  /* .wrapper {
+    background-color: lightblue;
+  } */
+  .title {
+      font-size: 79px;
+  }
+}
 </style>
