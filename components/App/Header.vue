@@ -1,8 +1,8 @@
 <template>
   <section class="app-header">
     <b-navbar id="secrimento" toggleable="lg" type="dark" variant="dark" fixed>
-      <b-navbar-brand id="secrimento-brand" href="#">
-        NavBar
+      <b-navbar-brand id="secrimento-brand" to="/">
+        {{ SiteTitle }}
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse">
@@ -12,14 +12,29 @@
         </template>
       </b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse" is-nav style="">
         <b-navbar-nav>
-          <b-nav-item href="#">
-            Link
+          <!--  -->
+          <b-nav-item to="/over-ons">
+            Over ons
           </b-nav-item>
-          <b-nav-item href="#">
-            Disabled
+          <b-nav-item to="/projecten">
+            Projecten
           </b-nav-item>
+          <b-nav-item to="/gallerij">
+            Gallerij
+          </b-nav-item>
+          <b-nav-item-dropdown text="Contact" right>
+            <b-dropdown-item>
+              0800 - 1234
+            </b-dropdown-item>
+            <b-dropdown-item to="/contact">
+              Contact formulier
+            </b-dropdown-item>
+            <b-dropdown-item to="/contact/chat">
+              *New Chat?
+            </b-dropdown-item>
+          </b-nav-item-dropdown>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
@@ -56,7 +71,27 @@
   </section>
 </template>
 
+<script>
+//
+export default {
+  data () {
+    return {
+      SiteTitle: 'MauwMauw'
+    }
+  }
+}
+</script>
+
 <style>
+/* 600px */
+ @media screen and (max-width: 993px) {
+     ul.dropdown-menu.dropdown-menu-right.show {
+        text-align: center;
+    }
+    .form-inline {
+        justify-content: center;
+    }
+ }
 
 .navbar {
     top: 0px;
