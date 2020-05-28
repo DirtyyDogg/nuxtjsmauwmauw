@@ -4,7 +4,7 @@
     <img src="https://www.w3schools.com/howto/img_avatar.png" class="imageUP">
     <div class="overlayUP">
       <div class="textUP">
-        Hello World
+        Slide2
       </div>
     </div>
   </div>

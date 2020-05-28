@@ -34,10 +34,12 @@ export default {
 </script>
 
 <style lang="scss">
+
 .containerUP {
   position: relative;
-  width: 96%;
+  width: 100%;
   min-height: "20em";
+  margin: 0 0 18px 0;
 }
 
 .imageUP {
@@ -74,8 +76,11 @@ export default {
   text-align: center;
 }
 // Mobile
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 768px) {
    // UP Styles
+   div#cardss {
+    display: none
+ }
 }
 
 // Large
@@ -88,29 +93,4 @@ export default {
 
 }
 
-// /
-//     .containerUP {
-//         position: relative;
-//         width: 100%;
-//         min-height: 7cm;
-//     }
-//     .overlayUP {
-//         position: absolute;
-//         bottom: 10px;
-//         left: 0;
-//         right: 0;
-//         background-color: #008CBA;
-//         overflow: hidden;
-//         width: 100%;
-//         height: 0;
-//         //   height: 63px;
-//         transition: .5s ease;
-//     }
-
-//     .containerUP:hover .overlayUP {
-//         height: 100%;
-//     }
-// }
-// /
-// // Mobile
 </style>
