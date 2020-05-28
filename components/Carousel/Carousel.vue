@@ -52,7 +52,7 @@
         </b-carousel-slide>
       </b-carousel>
 
-      <p class="mt-4" style="text-align:center; color:white;">
+      <p v-if="devv" class="mt-4" style="text-align:center; color:white;">
         Slide #: {{ slide }}<br>
         Sliding: {{ sliding }}
       </p>
@@ -65,7 +65,8 @@ export default {
   data () {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
+      devv: false
     }
   },
   methods: {

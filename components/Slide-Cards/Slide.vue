@@ -1,6 +1,6 @@
 <template>
   <!--  -->
-  <b-container class="containerService">
+  <b-container class="containerCards">
     <b-row align-v="stretch" align-h="between" cols="1" cols-md="2" cols-lg="4">
       <b-col>
         <Slide1 />
@@ -34,7 +34,9 @@ export default {
 </script>
 
 <style lang="scss">
-
+.containerCards.container {
+    margin-top: 52px;
+}
 .containerUP {
   position: relative;
   width: 100%;
