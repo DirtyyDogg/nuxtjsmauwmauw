@@ -118,6 +118,12 @@ export default {
    div#cardss {
     display: none
  }
+ // .container-xl {
+   //  margin-top: 14px;
+// }
+// .img-fluid {
+    // 70vh !important;
+ // }
 }
 
 // Large
@@ -125,4 +131,13 @@ export default {
 
 }
 
+.Slider.container-xl {
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 8px 0 7px;
+}
+.img-fluid {
+    height: 70vh !important;
+}
 </style>

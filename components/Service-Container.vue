@@ -18,7 +18,14 @@ export default {
 
 <style lang="scss">
 .img-fluid {
-    height: 81vh !important;
+    height: 67vh !important;
+}
+.slurp {
+    margin: 103px;
+    // padding: 66px;
+    background: #ff000000;
+    display: block;
+    position: static;
 }
 // Larger
 @media screen and (min-width: 800px) {
@@ -28,7 +35,13 @@ export default {
 }
 @media screen and (min-width: 1000px) {
     .img-fluid {
-        height: 70vh !important;
+        height: 55vh !important;
+    }
+    .Slider.container-xl {
+        margin-top: 55px;
+    }
+    .slurp {
+        display: none;
     }
 }
 </style>
