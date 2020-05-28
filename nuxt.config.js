@@ -60,6 +60,22 @@ module.exports = {
     icons: true
   },
   /*
+  ** fontawesome module configuration
+  ** See https://dev.to/overscoremedia/use-bulma-and-fontawesome-5-with-nuxt-js-11le
+  */
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons', // Solid Icons
+        icons: ['']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons', // Brand Icons
+        icons: ['']
+      }
+    ]
+  },
+  /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
