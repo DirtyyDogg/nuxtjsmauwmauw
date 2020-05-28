@@ -12,9 +12,12 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, user-scalable=no' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js' }
+      // { rel: 'stylesheet', href: '' }
     ]
   },
   /*
@@ -67,11 +70,11 @@ module.exports = {
     imports: [
       {
         set: '@fortawesome/free-solid-svg-icons', // Solid Icons
-        icons: ['']
+        icons: ['fas']
       },
       {
         set: '@fortawesome/free-brands-svg-icons', // Brand Icons
-        icons: ['']
+        icons: ['fab']
       }
     ]
   },
