@@ -18,10 +18,10 @@ export default {
 
 <style lang="scss">
 .img-fluid {
-    height: 67vh !important;
+    height: 70vh !important;
 }
 .slurp {
-    margin: 103px;
+    margin: 49px;
     // padding: 66px;
     background: #ff000000;
     display: block;

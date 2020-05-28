@@ -132,10 +132,10 @@ export default {
 }
 
 .Slider.container-xl {
-    margin-top: 44px;
+    margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 8px 0 7px;
+    padding: 0 8px 0 8px;
 }
 .img-fluid {
     height: 70vh !important;
