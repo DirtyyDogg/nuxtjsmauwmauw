@@ -15,7 +15,7 @@
       <b-collapse id="nav-collapse" is-nav style="">
         <b-navbar-nav>
           <!--  -->
-          <b-nav-item to="/over-ons">
+          <b-nav-item to="/over/ons">
             Over ons
           </b-nav-item>
           <b-nav-item to="/projecten">
