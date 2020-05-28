@@ -40,7 +40,7 @@ export default {
         /* max-height: 98.3vh; */
         max-height: 100vh;
         min-height: 100vh;
-        background: black;
+        background: #060606eb;
         overflow: scroll;
     }
     .navbar-collapse.show {
@@ -67,7 +67,8 @@ export default {
         /* max-height: 98.3vh; */
         max-height: 100vh;
         min-height: 100vh;
-        background: black;
+        background: #060606eb;
+        /* background: black; */
         overflow: scroll;
     }
 }
