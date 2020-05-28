@@ -49,7 +49,35 @@ export default {
   width: 100%;
   height: auto;
 }
-
+#card1.containerUP > .overlayUP {
+    background-color: rgba(152, 218, 47, 0.88);
+    // background-color: #98da2fbd;
+}
+#card1.containerUP > .overlayUP > .textUP {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    // text-shadow: 0 1px 0 #ccc,
+    //            0 2px 0 #c9c9c9,
+    //            0 3px 0 #bbb,
+    //            0 4px 0 #b9b9b9,
+    //            0 5px 0 #aaa,
+    //            0 6px 1px rgba(0,0,0,.1),
+    //            0 0 5px rgba(0,0,0,.1),
+    //            0 1px 3px rgba(0,0,0,.3),
+    //            0 3px 5px rgba(0,0,0,.2),
+    //            0 5px 10px rgba(0,0,0,.25),
+    //            0 10px 10px rgba(0,0,0,.2),
+    //            0 20px 20px rgba(0,0,0,.15);
+}
+#card2.containerUP > .overlayUP {
+    background-color: #de57c7b3;
+}
+#card3.containerUP > .overlayUP {
+    background-color: #57acdea6;
+}
+#card4.containerUP > .overlayUP {
+    background: #0a0a0ea6;
+}
 .overlayUP {
   position: absolute;
   bottom: 0;
@@ -68,6 +96,7 @@ export default {
 
 .textUP {
   color: white;
+  text-shadow: 2px 2px 4px #000000;
   font-size: 20px;
   position: absolute;
   top: 50%;
