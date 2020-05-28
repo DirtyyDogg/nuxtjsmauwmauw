@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container" style="text-align:center;">
     <h4>Wie zijn wij?</h4>
   </div>
 </template>

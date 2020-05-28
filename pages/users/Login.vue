@@ -1,6 +1,6 @@
 <template>
   <div class="container" style="text-align:center;">
-    <h4>Gallerij</h4>
+    <h4>Login</h4>
   </div>
 </template>
 

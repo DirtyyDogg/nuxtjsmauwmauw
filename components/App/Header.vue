@@ -58,10 +58,10 @@
             </b-nav-item-dropdown>
             <div v-else>
               <b-nav-item-dropdown v-if="!user" text="Niet ingelogd" right>
-                <b-dropdown-item href="#">
+                <b-dropdown-item to="/users/login">
                   Login
                 </b-dropdown-item>
-                <b-dropdown-item href="#">
+                <b-dropdown-item to="/users/registratie">
                   Register
                 </b-dropdown-item>
               </b-nav-item-dropdown>
