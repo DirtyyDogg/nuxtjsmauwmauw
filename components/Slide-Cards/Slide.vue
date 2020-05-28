@@ -18,6 +18,9 @@
         <Slide4 />
       </b-col>
     </b-row>
+    <div class="fill">
+      <h1 />
+    </div>
   </b-container>
 </template>
 
@@ -34,6 +37,9 @@ export default {
 </script>
 
 <style lang="scss">
+.fill {
+    padding: 7px;
+}
 .containerCards.container {
     margin-top: 52px;
 }
