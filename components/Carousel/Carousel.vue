@@ -81,7 +81,7 @@ export default {
 <style lang="scss" scoped>
 .img-fluid {
     width: 100%;
-    height: 414px !important;
+    // height: 414px !important;
 }
 
 @media (min-width: 1200px) {

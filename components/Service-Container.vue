@@ -18,6 +18,6 @@ export default {
 
 <style lang="scss">
 .img-fluid {
-    height: 414px !important;
+    height: 86vh !important;
 }
 </style>
