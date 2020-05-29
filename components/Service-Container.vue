@@ -42,15 +42,16 @@ export default {
     bottom: 0;
 }
 .carousel-indicators li {
-    background-color: #fff;
-    border-top: 0.1px solid rgba(0, 0, 0, 0.87);
-    border-bottom: 0.1px solid rgba(10, 10, 39, 0.9);
-    border-left: 0.1px solid rgba(0, 0, 0, 0.9);
-    border-right: 0.1px solid rgba(45, 45, 45, 0.9);
+    background-color: #ffc3c3;
+    border-top: 1px solid rgba(115, 115, 115, 0.65);
+    border-bottom: 1px solid rgb(21, 1, 7);
+    border-left: 1px solid rgba(0, 0, 0, 0.9);
+    border-right: 1px solid rgba(114, 125, 69, 0.9);
     border-radius: 6px;
     opacity: 0.9;
     width: 34px;
-    height: 7px;
+    height: 5px;
+    box-shadow: #000 43px 61px 32px;
 }
 .img-fluid {
     // height: 86vh !important;
@@ -83,7 +84,7 @@ export default {
         display: none;
     }
     .carousel-indicators {
-        bottom: 33px;
+        bottom: 64px;
     }
     .form-inline {
         display: flex;

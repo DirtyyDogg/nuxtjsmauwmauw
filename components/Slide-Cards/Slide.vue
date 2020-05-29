@@ -1,6 +1,9 @@
 <template>
   <!--  -->
   <b-container class="containerCards">
+    <div class="test">
+      ok
+    </div>
     <b-row align-v="stretch" align-h="between" cols="1" cols-md="2" cols-lg="4">
       <b-col>
         <Slide1 />
@@ -37,11 +40,64 @@ export default {
 </script>
 
 <style lang="scss">
+/* Voor PC */
+@media screen and (min-width: 992px) {
+  .test {
+    display: none;
+  }
+  .containerCards.container {
+      background: #80008000;
+      padding: 25px 7px 0px 7px;
+      margin-top: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .test {
+    background-color: #ff000000;
+    min-height: 3px;
+    max-height: 7px;
+  }
+  .containerCards.container {
+      background: #80008000;
+      padding: 25px 7px 0px 7px;
+      margin-top: 0;
+  }
+}
+
+// @media only screen and (min-width: 500px) {
+//   /* For tablets: */
+//   .test {
+//       background: #ff000000;
+//       min-height: 3px;
+//       max-height: 7px;
+//   }
+//   .containerCards.container {
+//       background: #1f1f1fc2;
+//       padding: 25px 7px 0px 7px;
+//       margin-top: 0;
+//   }
+// }
 .fill {
     padding: 8vh;
 }
+// .containerCards.container {
+//     margin-top: 20px;
+// }
+.containerCards.container .row {
+    margin-top: -16px;
+    margin-bottom: -90px;
+}
 .containerCards.container {
-    margin-top: 20px;
+    // margin-top: 54px;
+    // margin-top: 16px;
+    // background: rgba(0, 255, 255, 0.0);
+    // padding: 7px 7px 7px 7px;
+    // padding: 15px 7px 0px 7px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    // top: 50%;
+    height: 100%;
 }
 .containerUP {
   position: relative;
@@ -112,30 +168,33 @@ export default {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-// Mobile
-@media screen and (min-width: 768px) {
-   // UP Styles
-   div#cardss {
-    display: none
- }
+// // Mobile
+// @media screen and (min-width: 768px) {
+//    // UP Styles
+//    div#cardss {
+//     display: none
+//  }
  // .container-xl {
    //  margin-top: 14px;
 // }
 // .img-fluid {
     // 70vh !important;
  // }
-}
+//}
 
 // Large
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 1200px) {
+    .container-xl {
+        max-width: unset;
+    }
 }
 
 .Slider.container-xl {
     margin-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 8px 0 8px;
+    // margin-left: auto;
+    // margin-right: auto;
+    padding: 0 0px 0 0px;
+    // padding: 0 8px 0 8px;
 }
 .img-fluid {
     height: 80vh !important;
