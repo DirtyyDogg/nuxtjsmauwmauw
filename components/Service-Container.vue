@@ -54,13 +54,14 @@ export default {
     // height: 86vh !important;
     height: 106vh !important;
     max-height: 100vh !important;
+    max-height: 100vh;
 }
 .slurp {
     // margin: 94px;
     // padding: 66px;
     margin: 0px;
     background: #ff000000;
-    display: block;
+    display: none;
     // position: static;
     position: relative;
     padding: 0px 0 0 0;
