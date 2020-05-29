@@ -51,14 +51,18 @@ export default {
     height: 7px;
 }
 .img-fluid {
-    height: 86vh !important;
+    // height: 86vh !important;
+    height: 95vh !important;
 }
 .slurp {
-    margin: 94px;
+    // margin: 94px;
     // padding: 66px;
+    margin: 5px;
     background: #ff000000;
     display: block;
-    position: static;
+    // position: static;
+    position: relative;
+    bottom: -33px;
 }
 // Larger
 @media screen and (min-width: 800px) {
