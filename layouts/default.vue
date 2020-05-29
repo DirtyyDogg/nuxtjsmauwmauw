@@ -4,6 +4,7 @@
     <div class="wrapper">
       <nuxt />
     </div>
+    <div id="merg" class="faggit" />
     <appFooter />
   </div>
 </template>
@@ -42,6 +43,10 @@ export default {
         min-height: 100vh;
         background: #060606eb;
         overflow: scroll;
+    }
+    div#merg {
+        margin-top: -61px;
+        margin-bottom: 30 px;
     }
     .navbar-collapse.show {
         max-height: 100vh;
