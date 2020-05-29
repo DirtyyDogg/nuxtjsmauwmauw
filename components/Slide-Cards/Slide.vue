@@ -136,11 +136,8 @@ export default {
     margin-left: auto;
     margin-right: auto;
     padding: 0 8px 0 8px;
-    min-height: 99vh;
-    max-height: 100vh;
-    height: 100%;
 }
 .img-fluid {
-    height: 70vh !important;
+    height: 84vh !important;
 }
 </style>
