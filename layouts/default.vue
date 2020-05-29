@@ -48,6 +48,9 @@ export default {
         margin-top: -61px;
         margin-bottom: 30 px;
     }
+    div#service6 {
+    padding: 0px 0 71px 0;
+}
     .navbar-collapse.show {
         max-height: 100vh;
         min-height: 100vh;
