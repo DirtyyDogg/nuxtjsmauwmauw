@@ -58,13 +58,12 @@ export default {
 .slurp {
     // margin: 94px;
     // padding: 66px;
-    margin: 5px;
+    margin: 0px;
     background: #ff000000;
     display: block;
     // position: static;
     position: relative;
-    bottom: -33px;
-    padding: 60px 0 0 0;
+    padding: 0px 0 0 0;
 }
 // Larger
 @media screen and (min-width: 800px) {
