@@ -41,7 +41,7 @@ export default {
     padding: 8vh;
 }
 .containerCards.container {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .containerUP {
   position: relative;
