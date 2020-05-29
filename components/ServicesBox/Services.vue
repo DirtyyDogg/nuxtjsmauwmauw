@@ -90,7 +90,8 @@ div#Services.ContainerServices.container .row {
     content: "";
     width: 80px;
     height: 2px;
-    background-color: #d8d8d8;
+    // background-color: #d8d8d8;
+    background-color: #484848;
     bottom: 0;
     left: 50%;
     margin-left: -40px;
@@ -100,7 +101,8 @@ div#Services.ContainerServices.container .row {
     content: "";
     width: 50px;
     height: 2px;
-    background-color: #FF7200;
+    // background-color: #FF7200;
+    background-color: #0201026e;
     left: 0;
     bottom: 0;
     left: 50%;
