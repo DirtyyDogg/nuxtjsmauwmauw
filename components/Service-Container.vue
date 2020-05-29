@@ -63,6 +63,7 @@ export default {
     // position: static;
     position: relative;
     bottom: -33px;
+    padding: 60px 0 0 0;
 }
 // Larger
 @media screen and (min-width: 800px) {
