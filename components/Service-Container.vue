@@ -17,6 +17,18 @@ export default {
 </script>
 
 <style lang="scss">
+.form-inline {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0px 0 0 0;
+}
+.form-inline > button {
+    padding: 0 3px 0 3px;
+    margin: 0;
+    position: relative;
+    top: 9px;
+}
 .carousel-option {
     bottom: 0;
     top: 37%;
@@ -67,5 +79,17 @@ export default {
     .carousel-indicators {
         bottom: 33px;
     }
+    .form-inline {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        padding: 0px 0 0 0;
+}
+    .form-inline > button {
+        padding: 0 4px 0 4px;
+        margin: 0;
+        position: relative;
+        top: 0;
+}
 }
 </style>
