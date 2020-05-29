@@ -52,7 +52,7 @@ export default {
 }
 .img-fluid {
     // height: 86vh !important;
-    height: 95vh !important;
+    height: 99vh !important;
 }
 .slurp {
     // margin: 94px;
