@@ -54,7 +54,7 @@ export default {
     height: 86vh !important;
 }
 .slurp {
-    margin: 74px;
+    margin: 94px;
     // padding: 66px;
     background: #ff000000;
     display: block;
