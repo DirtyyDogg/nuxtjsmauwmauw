@@ -56,9 +56,9 @@
         Slide #: {{ slide }}<br>
         Sliding: {{ sliding }}
       </p>
-      <div class="slurp">
+      <!-- <div class="slurp">
         <h1 />
-      </div>
+      </div> -->
     </b-container>
   </div>
 </template>
@@ -90,7 +90,7 @@ export default {
 
 @media (min-width: 1200px) {
 .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: unset;
+    //
     }
 }
 </style>
