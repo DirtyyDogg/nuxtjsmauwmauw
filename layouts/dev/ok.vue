@@ -58,16 +58,21 @@
     </b-navbar>
     <!--  -->
     <div class="App">
+      <div class="container" style="margin-top:30px;">
+        <div class="row">
+          <b-col cols="12" md="8" lg="2">
+            cols12 md 8 lg 2
+          </b-col>
+        </div>
+      </div>
       <div class="een">
-        <h1>okee</h1>
+        <!--  -->
         <div class="twee">
-          <h1>Niet okee</h1>
           <div class="container" style="margin-top:30px;">
             <div class="row">
               <div class="col-sm-4">
                 <h1>Waar hadden we het over???</h1>
               </div> <!-- einde col-sm-4 -->
-              <h1>UGHHH NEVERMIND!</h1>
             </div> <!-- einde row -->
           </div> <!-- einde container -->
         </div> <!-- einde class 2 -->
