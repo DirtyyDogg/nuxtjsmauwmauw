@@ -10,6 +10,7 @@
 <script>
 import ServiceContainer from '~/components/Service-Container'
 export default {
+  layout: 'olddefault',
   components: {
     ServiceContainer
   }
