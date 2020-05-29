@@ -193,7 +193,7 @@ export default {
     margin-top: 8px;
     // margin-left: auto;
     // margin-right: auto;
-    padding: 0 0px 0 0px;
+    padding: 0 2px 0 2px;
     // padding: 0 8px 0 8px;
 }
 .img-fluid {
