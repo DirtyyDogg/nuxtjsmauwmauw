@@ -138,6 +138,6 @@ export default {
     padding: 0 8px 0 8px;
 }
 .img-fluid {
-    height: 75vh !important;
+    height: 80vh !important;
 }
 </style>
