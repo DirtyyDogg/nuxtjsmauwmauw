@@ -24,7 +24,7 @@
 }
 h1#test {
     font-size: small;
-    margin-top: 11px;
+    margin-top: 6px;
     color: white;
 }
 </style>
