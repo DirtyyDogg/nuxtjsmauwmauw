@@ -1,17 +1,19 @@
 <template>
-  <section class="containerServicer">
+  <section class="containerHome">
     <Carousel />
     <Slide />
+    <ServicesBox />
   </section>
 </template>
 
 <script>
 import Slide from '~/components/Slide-Cards/Slide'
 import Carousel from '~/components/Carousel/Carousel'
+import ServicesBox from '~/components/ServicesBox/Services'
 
 export default {
   components: {
-    Slide, Carousel
+    Slide, Carousel, ServicesBox
   }
 }
 </script>

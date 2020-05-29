@@ -12,7 +12,7 @@
 .fixed-bottomm {
     position: absolute;
     right: 0;
-    bottom: -1px;
+    bottom: -7px;
     left: 0;
     z-index: 1030;
 }
