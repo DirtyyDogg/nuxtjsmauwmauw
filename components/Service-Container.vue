@@ -39,10 +39,10 @@ export default {
     height: 7px;
 }
 .img-fluid {
-    height: 79vh !important;
+    height: 86vh !important;
 }
 .slurp {
-    margin: 49px;
+    margin: 74px;
     // padding: 66px;
     background: #ff000000;
     display: block;
