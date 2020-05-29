@@ -62,6 +62,18 @@ export default {
       padding: 25px 7px 0px 7px;
       margin-top: 0;
   }
+  #card1.containerUP > .overlayUP {
+      background: rgba(10,10,14,0.65098) !important;
+  }
+  #card2.containerUP > .overlayUP {
+      background: rgba(10,10,14,0.65098) !important;
+  }
+  #card3.containerUP > .overlayUP {
+      background: rgba(10,10,14,0.65098) !important;
+  }
+  #card4.containerUP > .overlayUP {
+      background: rgba(10,10,14,0.65098) !important;
+  }
 }
 
 // @media only screen and (min-width: 500px) {
